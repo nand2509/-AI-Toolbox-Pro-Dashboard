@@ -1,15 +1,32 @@
-beautifulsoup4==4.12.2
-fpdf2==2.6.0
-google-generativeai==0.3.0
-gTTS==2.4.7
-pandas==2.1.0
-plotly==5.15.0
-pillow==9.5.0
-pytesseract==0.3.10
-PyPDF2==3.0.1
-pydub==0.25.1
-requests==2.31.0
-rich>=14.0.0
-speechrecognition==3.10.0
+# Core UI
 streamlit==1.24.1
+rich>=14.0.0
+
+# Web & scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# Data handling
+pandas==2.1.0
+
+# PDF & text extraction
+PyPDF2==3.0.1
+pytesseract==0.3.10
+fpdf2==2.6.0
+
+# Imaging
+Pillow==9.5.0
+
+# Plotting
+plotly==5.15.0
+
+# Google Gemini
+google-generativeai==0.3.0
+
+# Text-to-speech and speech-to-text
+gTTS==2.5.4
+SpeechRecognition==3.10.0
+pydub==0.25.1
+
+# Utilities
 werkzeug==2.3.7
